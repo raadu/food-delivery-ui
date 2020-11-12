@@ -1,0 +1,453 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.mainContainer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondaryContainer {
+    width: 100%; 
+    height: 100%;
+    background-color:#FFFFFF;
+    overflow-y: auto;
+}
+
+.productImageContainer {
+    width: 100%;
+    height: 75%;
+}
+
+.productImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttonContainer {
+    width: 50px;
+    height: 50px; 
+    position: relative;
+    background-color: #000000;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonContainer:hover {
+    background-color: #626567 ;
+    cursor: pointer;
+}
+
+.iconImage {
+    width: 25px;
+    height: 25px;
+}
+
+#backButton {
+    bottom: 92%;
+    left: 3%;
+}
+
+#searchButton {
+    bottom: 102.5%;
+    left: 85%;
+}
+
+#cartButton {
+    bottom: 113%;
+    left: 92%;
+}
+
+#shareButton {
+    bottom: 50%;
+    left: 85%;
+}
+
+#favoriteButton {
+    bottom: 60.5%;
+    left: 92%;
+}
+
+.threeDotsCotainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    bottom: 60%;
+}
+
+.singleDot {
+    width: 10px;
+    height: 10px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+.singleDot:hover {
+    cursor: pointer;
+    background-color: green;
+}
+
+#selectedDot {
+    background-color: green;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.titleText {
+    font-size: 1.5rem;
+    color: #1F4824;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.infoBox {
+    width: 100%;
+    border-top: 2px solid #EAEAEA;
+    border-bottom: 2px solid #EAEAEA;
+    display: flex;
+    flex-direction: row;
+}
+
+.infoItem {
+    width: 33.33%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.infoItem:hover {
+    cursor: pointer;
+    background-color: #EAEAEA;
+}
+
+.infoItemName {
+    margin-left: 2%;
+    font-size: 1.2rem;
+    color: #47694B;
+}
+
+#middleInfoItem {
+    border-left: 2px solid #EAEAEA;
+    border-right: 2px solid #EAEAEA;
+}
+
+.dishInfoContainer {
+    border-bottom: 2px solid #EAEAEA;
+    padding: 2%;
+}
+
+.availabilityText {
+    font-size: 1.2rem;
+    color: #1F4824;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choiceText {
+    font-size: 1rem;
+    color: #1F4824;
+    margin-bottom: 2%;
+}
+
+.calendarContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.dateBox {
+    width: 14.28%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dayText {
+    color:#103b15;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.numberCircle {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.numberCircle:hover {
+    border-radius: 50%;
+    background-color: #4fb65b;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.staticNumberCircle {
+    border-radius: 50%;
+    background-color:#4fb65b;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dateNumberText {
+    color:#cccccc;
+    font-weight: bold;
+}
+
+.dateNumberText:hover {
+    color: #FFFFFF;
+}
+
+.staticDateNumberText {
+    color: #FFFFFF;
+}
+
+.itemLeftText {
+    color:#103b15;
+    font-size: 0.8rem;
+}
+
+.slotContainer {
+    width: 100%;
+}
+
+.slotBox {
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slotItem {
+    background-color:#e4e4e4;
+    border-radius: 15px;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 10px;
+}
+
+.slotItem:hover {
+    background-color: #9ecba3;
+    cursor: pointer;
+}
+
+#selectedSlotItem {
+    background-color:#9ecba3;
+}
+
+.orderButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.orderButton {
+    background-color: #4fb65c;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 4px 7px 8px #878888;
+}
+
+.orderButton:hover {
+    cursor: pointer;
+    background-color: #1F4824;
+}
+
+.buttonIcon {
+    width: 25px;
+    height: 25px;
+}
+
+.buttonText {
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.reviewContainer {
+    padding: 2%;
+}
+
+.userInfoContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2%;
+}
+
+.userImage {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.userNameRating {
+    padding-left: 1%;
+}
+
+.userName {
+    color: green;
+}
+
+.userRating {
+    display: flex;
+    flex-direction: row;
+}
+
+.starRatingIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
+
+.reviewCategory {
+    display: flex;
+    flex-direction: row;
+}
+
+.categoryBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.categoryItem {
+    background-color:#e4e4e4;
+    border-radius: 15px;
+    padding-left: 15%;
+    padding-right: 15%;
+    color: #1F4824;
+    margin-right: 12%;
+}
+
+.reviewText {
+    color: #1F4824;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    
+    .buttonContainer {
+        width: 40px;
+        height: 40px; 
+        position: relative;
+        background-color: #000000;
+        border-radius: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .iconImage {
+        width: 15px;
+        height: 15px;
+    }
+
+    #backButton {
+        bottom: 92%;
+        left: 3%;
+    }
+    
+    #searchButton {
+        bottom: 102.5%;
+        left: 83%;
+    }
+    
+    #cartButton {
+        bottom: 111%;
+        left: 91%;
+    }
+    
+    #shareButton {
+        bottom: 50%;
+        left: 83%;
+    }
+    
+    #favoriteButton {
+        bottom: 58.5%;
+        left: 91%;
+    }
+
+    .threeDotsCotainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        bottom: 50%;
+    }
+
+    .slotItem {
+        background-color:#e4e4e4;
+        border-radius: 15px;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #backButton {
+        bottom: 92%;
+        left: 3%;
+    }
+    
+    #searchButton {
+        bottom: 100.5%;
+        left: 69%;
+    }
+    
+    #cartButton {
+        bottom: 109.5%;
+        left: 84%;
+    }
+    
+    #shareButton {
+        bottom: 47%;
+        left: 69%;
+    }
+    
+    #favoriteButton {
+        bottom: 55.5%;
+        left: 85%;
+    }
+
+    .slotItem {
+        background-color:#e4e4e4;
+        border-radius: 15px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-top: 10px;
+        font-size: 0.8rem;
+    }
+}

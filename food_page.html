@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Chaldal Assignment - 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="secondaryContainer">
+            <!-- Product Image Container -->
+            <div class="productImageContainer">
+                <img class="productImage" src="public/images/bbq_chicken.jpg" alt="Product Image">
+                <!-- Back Arrow Button -->
+                <div id="backButton" class="buttonContainer">
+                    <img src="public/icons/left-arrow.svg" class="iconImage" alt="Back Arrow Button">
+                </div>
+                <!-- Search Button -->
+                <div id="searchButton" class="buttonContainer">
+                    <img src="public/icons/search.svg" class="iconImage" alt="Search Button">
+                </div>
+                <!-- Cart Button -->
+                <div id="cartButton" class="buttonContainer">
+                    <img src="public/icons/cart.svg" class="iconImage" alt="Cart Button">
+                </div>
+                <!-- Share Button -->
+                <div id="shareButton" class="buttonContainer">
+                    <img src="public/icons/share.svg" class="iconImage" alt="Share Button">
+                </div>
+                <!-- Favorite Button -->
+                <div id="favoriteButton" class="buttonContainer">
+                    <img src="public/icons/favorite.svg" class="iconImage" alt="Favorite Button">
+                </div>
+                <!-- Three Dots -->
+                <div class="threeDotsCotainer">
+                    <div id="selectedDot" class="singleDot"></div>
+                    <div class="singleDot"></div>
+                    <div class="singleDot"></div>
+                </div>
+            </div>
+            <!-- Product Title -->
+            <div class="titleContainer">
+                <div class="titleText">
+                    4 Pax English Style Whole Chicken Roast
+                    With Boiled Vegetables
+                </div>
+            </div>
+            <!-- Product Info Box -->
+            <div class="infoBox">
+                <div class="infoItem">
+                    <img src="public/icons/fork-knife.svg" class="iconImage" alt="Fork Knife">
+                    <div class="infoItemName">
+                        Bakery
+                    </div>
+                </div>
+                <div id="middleInfoItem" class="infoItem">
+                    <img src="public/icons/pie.svg" class="iconImage" alt="Fork Knife">
+                    <div class="infoItemName">
+                        Serves 10
+                    </div>
+                </div>
+                <div class="infoItem">
+                    <img src="public/icons/taka.svg" class="iconImage" alt="Fork Knife">
+                    <div class="infoItemName">
+                        9999
+                    </div>
+                </div>
+            </div>
+            <!-- Dish Availability Info -->
+            <div class="dishInfoContainer">
+                <div class="availabilityText">
+                    <div>Dish Availability</div>
+                </div>
+                <div class="choiceText">
+                    Choose a Date
+                </div>
+                <!-- Calendar -->
+                <div class="calendarContainer">
+                    <div class="dateBox">
+                        <div class="dayText">
+                            Sun
+                        </div>
+                        <div class="numberCircle">
+                            <div class="dateNumberText">
+                                13
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dateBox">
+                        <div class="dayText">
+                            Mon
+                        </div>
+                        <div class="staticNumberCircle">
+                            <div class="staticDateNumberText">
+                                14
+                            </div>
+                        </div>
+                        <div class="itemLeftText">
+                            3 left
+                        </div>
+                    </div>
+                    <div class="dateBox">
+                        <div class="dayText">
+                            Tue
+                        </div>
+                        <div class="numberCircle">
+                            <div class="dateNumberText">
+                                15
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dateBox">
+                        <div class="dayText">
+                            Wed
+                        </div>
+                        <div class="numberCircle">
+                            <div class="dateNumberText">
+                                16
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dateBox">
+                        <div class="dayText">
+                            Thu
+                        </div>
+                        <div class="numberCircle">
+                            <div class="dateNumberText">
+                                17
+                            </div>
+                        </div>
+                        <div class="itemLeftText">
+                            4 left
+                        </div>
+                    </div>
+                    <div class="dateBox">
+                        <div class="dayText">
+                            Fri
+                        </div>
+                        <div class="numberCircle">
+                            <div class="dateNumberText">
+                                18
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dateBox">
+                        <div class="dayText">
+                            Sat
+                        </div>
+                        <div class="numberCircle">
+                            <div class="dateNumberText">
+                                19
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="choiceText">
+                    Delivery Slot
+                </div>
+                <!-- Delivery Slot -->
+                <div class="slotContainer">
+                    <div class="slotBox">
+                        <div class="slotItem">
+                            10 AM - 12 AM
+                        </div>
+                    </div>
+                    <div class="slotBox">
+                        <div id="selectedSlotItem" class="slotItem">
+                            10 AM - 12 AM
+                        </div>
+                    </div>
+                    <div class="slotBox">
+                        <div class="slotItem">
+                            10 AM - 12 AM
+                        </div>
+                    </div>
+                    <div class="slotBox">
+                        <div class="slotItem">
+                            10 AM - 12 AM
+                        </div>
+                    </div>
+                    <div class="slotBox">
+                        <div class="slotItem">
+                            10 AM - 12 AM
+                        </div>
+                    </div>
+                </div>
+                <!-- Order Button -->
+                <div class="orderButtonContainer">
+                    <div class="orderButton">
+                        <img class="buttonIcon" src="public/icons/dish.svg" alt="Dish Icon">
+                        <div class="buttonText">
+                            Order Now
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Review Section -->
+            <div class="reviewContainer">
+                <!-- User Name, Photo, Rating -->
+                <div class="userInfoContainer">
+                    <img class="userImage" src="public/images/userImage.svg" alt="User Image">
+                    <div class="userNameRating">
+                        <div class="userName">
+                            Romana Rahman
+                        </div>
+                        <div class="userRating">
+                            <img class="starRatingIcon" src="public/icons/star.svg" alt="Star Icon">
+                            <img class="starRatingIcon" src="public/icons/star.svg" alt="Star Icon">
+                            <img class="starRatingIcon" src="public/icons/star.svg" alt="Star Icon">
+                            <img class="starRatingIcon" src="public/icons/star.svg" alt="Star Icon">
+                            <img class="starRatingIcon" src="public/icons/star.svg" alt="Star Icon">
+                        </div>
+                    </div>
+                </div>
+                <!-- Review Category -->
+                <div class="reviewCategory">
+                    <div class="categoryBox">
+                        <div class="categoryItem">
+                            Sweet
+                        </div>
+                        <div class="categoryItem">
+                            Bakery
+                        </div>
+                        <div class="categoryItem">
+                            Sweet
+                        </div>
+                    </div>
+                </div>
+                <!-- Review Text -->
+                <div class="reviewText">
+                    <br>
+                    This is my remake version of childhood favorite. The Cheesecake.
+                    <br>
+                    <br>
+                    This ovaltine goodness is filled with morobba chunks and raisins
+                    then topped with crushed almonds and pistachios. There is a bit
+                    of underlying ghee aroma to complete the experience.
+                    <br>
+                    <br>
+                    Let this be your new tea time favorite item!
+                    <br>
+                    <br>
+                    So far we have been getting rave reviews. Don't miss out!
+                    <br>
+                    <br>
+                    Let this be your new tea time favorite item!
+                    <br>
+                    <br>
+                    So far we have been getting rave reviews. Don't miss out!
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
